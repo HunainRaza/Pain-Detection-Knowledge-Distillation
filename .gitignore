@@ -1,0 +1,110 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# JupyterNotebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyCharm
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model checkpoints and weights (generated during training)
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs and logs
+outputs/
+outputs_*/
+checkpoints/
+logs/
+runs/
+
+# Evaluation results (generated)
+evaluation/
+evaluation_*/
+
+# Trained model directories
+finetuned_teachers/
+finetuned_models/
+
+# Large dataset artifacts
+SynPainProcessed/
+*.csv
+*.json
+.txt
+
+# Temporary and backup files
+*_old.*
+*_backup.*
+*_copy.*
+*_test.*
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python profiling
+.prof
+*.prof
+
+# Generated plots and images (optional - keep if you want to commit examples)
+*.png
+*.jpg
+*.jpeg
+
+# Environment-specific
+.env
+.env.local
+secrets.txt
